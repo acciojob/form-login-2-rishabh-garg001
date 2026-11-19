@@ -3,10 +3,10 @@
 function handleSubmit(event) {
 	event.preventDefault()
 
-	let firstName = document.getElementById("firstName").value
-	let lastName = document.getElementById("lastName").value
-	let phoneNumber = document.getElementById("phoneNumber").value
-	let email = document.getElementById("email").value
+	let firstName = document.getElementById("First Name").value
+	let lastName = document.getElementById("Last Name").value
+	let phoneNumber = document.getElementById("Phone Number").value
+	let email = document.getElementById("Email ID").value
 
 	alert(
 		"First Name: " + firstName +
