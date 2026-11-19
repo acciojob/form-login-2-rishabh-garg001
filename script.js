@@ -1,7 +1,7 @@
 //your JS code here. If required.
 // let form = document.getElementById("myForm")
 function handleSubmit(event) {
-	event.preventDeafult()
+	event.preventDefault()
 
 	let firstName = document.getElementById("firstName").value
 	let lastName = document.getElementById("lastName").value
